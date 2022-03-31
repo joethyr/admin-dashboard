@@ -6,6 +6,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr repeat(2, 2fr) 1fr;
+  height: 100vh;
 }
 
 
@@ -18,7 +19,11 @@ header {
 
 nav {
   border: 1px solid black;
-  grid-row: 1 / 4;
+  grid-row: 1 / 5;
+  background-color: royalblue;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 6fr 3fr;
 }
 
 section {
@@ -54,7 +59,7 @@ section {
 }
 
 .profile-image {
-  width: 46px;
+  width: 35px;
   height: auto;
 }
 
@@ -83,5 +88,5 @@ section {
 }
 
 footer {
-  grid-column: span 5;
+  grid-column: 2 / 5;
 }
