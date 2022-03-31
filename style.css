@@ -34,4 +34,8 @@ section {
   /*border: 1px solid black;*/
 }
 
-
+.search-bar {
+    width: 95%;
+    border-radius: 25px;
+    height: 20px;
+}
