@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr repeat(2, 2fr) 1fr;
@@ -8,11 +13,11 @@ body {
 header {
   grid-column: 2 / 5;
   display: grid;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 
 nav {
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   grid-row: 1 / 4;
 }
 
@@ -38,16 +43,45 @@ section {
   display: grid;
   grid-template-columns: 2fr 1.5fr;
   grid-template-rows: 1fr 2fr;
+  align-items: center;
 
 }
 
 .search-bar {
-    width: 80%;
-    border-radius: 25px;
-    height: 20px;
+  width: 80%;
+  border-radius: 25px;
+  height: 20px;
 }
 
-.search-icon {
-  width: 25px;
+.profile-image {
+  width: 46px;
   height: auto;
+}
+
+.header-welcome {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    width: 400px;
+}
+
+.header-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 280px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.header-btn {
+  padding: 14px 40px
+}
+
+.main-profile-image {
+  grid-row: span 2;
+}
+
+footer {
+  grid-column: span 5;
 }
