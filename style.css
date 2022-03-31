@@ -34,8 +34,20 @@ section {
   /*border: 1px solid black;*/
 }
 
+.header-grid {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  grid-template-rows: 1fr 2fr;
+
+}
+
 .search-bar {
-    width: 95%;
+    width: 80%;
     border-radius: 25px;
     height: 20px;
+}
+
+.search-icon {
+  width: 25px;
+  height: auto;
 }
