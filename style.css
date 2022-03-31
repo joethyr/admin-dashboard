@@ -3,33 +3,35 @@ body {
   grid-template-columns: 1fr repeat(2, 2fr) 1fr;
 }
 
+
+
 header {
   grid-column: 2 / 5;
   display: grid;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 nav {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   grid-row: 1 / 4;
 }
 
 section {
   grid-column: 2 / 4;
   grid-row: 2 / 4;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 
 }
 
 .news {
   grid-column: 4 / 5;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 
 }
 
 .trending {
   grid-column: 4 / 5;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 
