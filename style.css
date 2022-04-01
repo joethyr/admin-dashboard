@@ -13,7 +13,6 @@ body {
 
 header {
   grid-column: 2 / 5;
-  display: grid;
   border: 1px solid black;
 }
 
@@ -26,22 +25,34 @@ nav {
   grid-template-rows: 1fr 6fr 3fr;
 }
 
+.main-content {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+    background-color: rgb(233, 238, 255);
+    grid-column: 2/ -1;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;;
+}
+
 section {
-  grid-column: 2 / 4;
-  grid-row: 2 / 4;
-  padding: 20px 20px 0 15px;
-  background-color: antiquewhite;
+  padding: 20px 0 0 15px;
 }
 
-.news {
-  grid-column: 4 / 5;
-  /*border: 1px solid black;*/
-
+article {
+  font-size: 14px;
+  margin-left: 5px;
+  padding: 20px 20px 0 0;
 }
 
-.trending {
-  grid-column: 4 / 5;
-  /*border: 1px solid black;*/
+.article-sections {
+  display: grid;
+  margin-top: 10px;
+  grid-template-rows: 1fr .1fr 1fr;
+}
+
+footer {
+  grid-column: 2 / 5;
 }
 
 .header-grid {
@@ -49,7 +60,6 @@ section {
   grid-template-columns: 2fr 1.5fr;
   grid-template-rows: 1fr 2fr;
   align-items: center;
-
 }
 
 .search-bar {
@@ -90,7 +100,6 @@ section {
 .project-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
 }
 
 .project-box {
@@ -107,7 +116,24 @@ section {
     grid-template-rows: 1fr 6fr;
 }
 
-footer {
-  grid-column: 2 / 5;
+article > h3 {
+  font-size: 19px;
 }
 
+.article-section-01 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+  padding: 10px 15px 20px 15px;
+  height: 90%;
+  display: grid;
+}
+
+.article-section-02 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+  padding: 10px 15px 20px 15px;
+  height: 60%;
+  margin-top: 10px;
+}
