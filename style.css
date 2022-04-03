@@ -53,6 +53,9 @@ article {
 
 footer {
   grid-column: 2 / 5;
+  margin: auto;
+  text-align:  center;
+  width: 200px;
 }
 
 .header-grid {
@@ -99,7 +102,7 @@ footer {
 
 .project-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 200px;
 }
 
 .project-box {
