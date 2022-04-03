@@ -9,8 +9,6 @@ body {
   height: 100vh;
 }
 
-
-
 header {
   grid-column: 2 / 5;
   border: 1px solid black;
@@ -18,21 +16,10 @@ header {
 
 nav {
   border: 1px solid black;
-  grid-row: 1 / 5;
+  grid-row: 1 / span 3;
   background-color: royalblue;
   color: white;
   display: grid;
-  grid-template-rows: 1fr 6fr 3fr;
-}
-
-.main-content {
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 20px;
-    background-color: rgb(233, 238, 255);
-    grid-column: 2/ -1;
-    display: grid;
-    grid-template-columns: 2.5fr 1fr;;
 }
 
 section {
@@ -45,17 +32,27 @@ article {
   padding: 20px 20px 0 0;
 }
 
-.article-sections {
-  display: grid;
-  margin-top: 10px;
-  grid-template-rows: 1fr .1fr 1fr;
-}
-
 footer {
   grid-column: 2 / 5;
   margin: auto;
   text-align:  center;
   width: 200px;
+}
+
+.main-content {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+    background-color: rgb(233, 238, 255);
+    grid-column: 2/ -1;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;;
+}
+
+.article-sections {
+  display: grid;
+  margin-top: 10px;
+  grid-template-rows: 1fr .1fr 1fr;
 }
 
 .header-grid {
@@ -103,8 +100,8 @@ footer {
 .project-container {
   display: grid;
   grid-template-columns: repeat( auto-fit, 600px );
-  grid-template-rows: repeat(3, 290px);
-
+/*  grid-template-rows: repeat(3, 290px);
+*/
 }
 
 .project-box {
