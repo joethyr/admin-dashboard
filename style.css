@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -23,7 +24,7 @@ nav {
 }
 
 section {
-  padding: 20px 0 0 15px;
+  padding: 20px 1rem 0 1rem;
 }
 
 article {
@@ -31,6 +32,7 @@ article {
   margin-left: 5px;
   padding: 20px 20px 0 0;
 }
+
 
 footer {
   grid-column: 2 / 5;
@@ -99,9 +101,8 @@ footer {
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat( auto-fit, 600px );
-/*  grid-template-rows: repeat(3, 290px);
-*/
+  grid-template-columns: repeat(2, 1fr);
+/*  grid-template-rows: repeat(3, 290px);*/
 }
 
 .project-box {
