@@ -19,7 +19,11 @@ nav {
   grid-row: 1 / span 3;
   background-color: #1992d4;
   color: white;
+}
+
+.nav-links {
   display: grid;
+  grid-template-rows: 1fr 6fr 3fr;
 }
 
 section {
