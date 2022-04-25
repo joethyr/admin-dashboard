@@ -33,10 +33,15 @@ nav {
   display: grid;
   grid-template-columns: 1fr 4fr;
   align-items: center;
+  font-size: 1.5rem;
 }
 
-.nav-title-text {
-  font-size: 1.5rem;
+.nav-title:hover {
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  cursor: pointer;
 }
 
 .nav-title-logo {
