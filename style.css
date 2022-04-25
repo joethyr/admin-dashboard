@@ -127,6 +127,18 @@ header {
   justify-items: end;
 }
 
+.header-default-greeting {
+  font-size: .8rem;
+  margin-bottom: -16px;
+  font-weight: 700;
+}
+
+.header-welcome-name {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
 section {
   display: grid;
   padding: 20px 1rem 0 1rem;
@@ -159,11 +171,11 @@ main {
 
 .profile-image {
   width: 42px;
-  height: auto;
 }
 
 .main-profile-image {
   grid-row: span 2;
+  width: 70px;
 }
 
 .project-title {
