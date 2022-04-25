@@ -11,10 +11,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  grid-column: 2 / 5;
-}
-
 nav {
   grid-row: 1 / span 3;
   background-color: #1992d4;
@@ -62,6 +58,30 @@ nav {
   text-align: center;
 }
 
+header {
+  grid-column: 2 / 5;
+}
+
+.header-welcome {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    width: 400px;
+}
+
+.header-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 280px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.header-btn {
+  padding: 14px 40px
+}
+
 section {
   display: grid;
   padding: 20px 1rem 0 1rem;
@@ -77,14 +97,6 @@ article {
   grid-template-rows: .18fr 1fr .25fr 1fr;
 }
 
-
-footer {
-  grid-column: 2 / 5;
-  margin: auto;
-  text-align:  center;
-  width: 200px;
-  display: grid;
-}
 
 main {
     padding-top: 20px;
@@ -117,26 +129,6 @@ main {
 .profile-image {
   width: 35px;
   height: auto;
-}
-
-.header-welcome {
-    display: grid;
-    grid-template-columns: .2fr 1fr;
-    grid-template-rows: 1fr 2fr;
-    align-items: center;
-    width: 400px;
-}
-
-.header-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 280px;
-  margin-left: 100px;
-  margin-top: 15px;
-}
-
-.header-btn {
-  padding: 14px 40px
 }
 
 .main-profile-image {
@@ -184,4 +176,12 @@ article > h2 {
   padding: 2rem;
   margin-top: 10px;
   grid-row: 4/ 5;
+}
+
+footer {
+  grid-column: 2 / 5;
+  margin: auto;
+  text-align:  center;
+  width: 200px;
+  display: grid;
 }
