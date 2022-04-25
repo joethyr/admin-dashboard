@@ -6,8 +6,9 @@
 
 body {
   display: grid;
-  grid-template-columns: 1fr repeat(2, 2fr) 1.5fr;
+  grid-template-columns: 1fr 5fr;
   height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
 header {
@@ -15,7 +16,6 @@ header {
 }
 
 nav {
-  border: 1px solid black;
   grid-row: 1 / span 3;
   background-color: #1992d4;
   color: white;
@@ -23,7 +23,38 @@ nav {
 
 .nav-links {
   display: grid;
-  grid-template-rows: 1fr 6fr 3fr;
+  grid-template-rows: 1fr 8fr 4.5fr;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.nav-title {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+
+.nav-title-text {
+  font-size: 1.5rem;
+}
+
+.nav-title-logo {
+  font-size: 2.3rem;
+  display: grid;
+  justify-content: center;
+}
+
+.nav-section{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: end;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+
+.nav-main-logo {
+  text-align: center;
 }
 
 section {
@@ -110,12 +141,6 @@ main {
 .project-title {
   grid-column: span 2;
 }
-
-/*.project-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 290px);
-}*/
 
 .article-sections {
   display: grid;
