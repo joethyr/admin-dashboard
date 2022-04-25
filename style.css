@@ -76,10 +76,17 @@ header {
   width: 280px;
   margin-left: 100px;
   margin-top: 15px;
+  grid-gap: 2rem;
 }
 
 .header-btn {
-  padding: 14px 40px
+  padding: 13px 30px;
+  border-radius: 100px;
+  background-color: #1992d4;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
 }
 
 section {
@@ -96,7 +103,6 @@ article {
   padding: 20px 20px 10px 0;
   grid-template-rows: .18fr 1fr .25fr 1fr;
 }
-
 
 main {
     padding-top: 20px;
