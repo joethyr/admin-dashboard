@@ -240,6 +240,16 @@ article > h3 {
   display: grid;
 }
 
+.trending-profiles {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    align-items: center;
+}
+
+.trending-profile-image {
+  width: 45px;
+}
+
 footer {
   grid-column: 2 / 5;
   margin: auto;
