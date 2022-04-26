@@ -26,6 +26,18 @@ nav {
   padding-left: 10px;
 }
 
+.fa-regular:hover {
+  cursor: pointer;
+}
+
+.fa-solid:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
 .nav-title {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -33,11 +45,7 @@ nav {
   font-size: 1.5rem;
 }
 
-.nav-title:hover {
-  cursor: pointer;
-}
-
-.nav-button:hover {
+.mouse-cursor:hover {
   cursor: pointer;
 }
 
