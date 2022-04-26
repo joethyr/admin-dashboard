@@ -169,6 +169,7 @@ section {
     margin-right: 20px;
     border-radius: 8px;
     box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    border-left: 8px solid #b4d667;
     background-color: white;
     align-items: start;
     padding: 20px;
