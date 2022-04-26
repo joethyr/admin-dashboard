@@ -235,19 +235,29 @@ article > h3 {
   background-color: white;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
-  padding: 2rem;
+  padding: 1.5rem;
   margin-top: 10px;
   display: grid;
 }
 
 .trending-profiles {
     display: grid;
+    grid-column-gap: 1rem;
     grid-template-columns: .2fr 1fr;
     align-items: center;
+    margin-bottom: 1rem
 }
 
 .trending-profile-image {
   width: 45px;
+}
+
+.trending-username {
+  font-weight: bold;
+}
+
+.trending-name {
+  color: grey;
 }
 
 footer {
