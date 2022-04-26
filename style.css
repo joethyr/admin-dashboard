@@ -238,7 +238,7 @@ article > h3 {
     padding: 15px 5px;
 }
 
-.article-news > p{
+.article-news > p {
     color: grey;
 }
 
@@ -280,6 +280,11 @@ footer {
   grid-column: 2 / 5;
   margin: auto;
   text-align:  center;
-  width: 200px;
   display: grid;
+  padding: 10px;
+  font-size: 12px;
+}
+
+footer > a {
+  text-decoration: none;
 }
