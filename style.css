@@ -175,9 +175,15 @@ section {
     padding: 20px;
     padding-bottom: 15px;
     display: grid;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 6fr 1.5fr;
 }
 
+.project-box-icons {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: .1fr .1fr .0fr;
+    justify-content: end;;
+}
 
 .profile-image {
   width: 42px;
