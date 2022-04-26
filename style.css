@@ -178,6 +178,10 @@ section {
     grid-template-rows: 1fr 6fr 1.5fr;
 }
 
+.project-box > p {
+  color: grey;
+}
+
 .project-box-icons {
     margin-top: 10px;
     display: grid;
@@ -226,9 +230,13 @@ article > h3 {
     padding: 15px 5px;
 }
 
+.article-news > p{
+    color: grey;
+}
+
 .news-community {
-  border-top: 1px solid grey;;
-  border-bottom: 1px solid grey;;
+  border-top: 1px solid darkgrey;;
+  border-bottom: 1px solid darkgrey;;
 }
 
 .article-section-02 {
