@@ -283,6 +283,9 @@ footer {
   display: grid;
   padding: 10px;
   font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
 }
 
 footer > a {
